@@ -41,16 +41,10 @@
         font-size: 1em;
         line-height: 1em;
     }
-    #left-container ol li div.header-2,
-    #left-container ol li div.attribute-0,
-    #left-container ol li div.attribute-1,
-    #left-container ol li div.attribute-2,
-    #left-container ol li div.attribute-3,
-    #left-container ol li div.attribute-4 {
+    #left-container ol li div.header-2, #left-container ol li div.attribute-0, #left-container ol li div.attribute-1, #left-container ol li div.attribute-2, #left-container ol li div.attribute-3, #left-container ol li div.attribute-4 {
         display: none;
     }
 }
-
 
 /*
  @media screen and (min-width: 641px) and (max-width:1023px) and (orientation: portrait){

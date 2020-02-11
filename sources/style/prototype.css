@@ -61,7 +61,6 @@
     content: "\f002";
 }
 
-
 /* Sections - Overall Layout ------------------------------------------------ */
 
 #container {
@@ -72,7 +71,6 @@
 #container>section {
     height: 100%;
 }
-
 
 /* Header - Additional Content ---------------------------------------------- */
 
@@ -97,8 +95,7 @@
     margin-left: 2%;
 }
 
-#drop-groupslist legend,
-#path fieldset legend span {
+#drop-groupslist legend, #path fieldset legend span {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.4rem;
@@ -112,9 +109,7 @@
     margin-bottom: 0.75rem;
 }
 
-
 /* Commons ------------------------------------------------------------------ */
-
 
 /* Section Title ------------------------------------------------------------ */
 
@@ -128,14 +123,12 @@
     display: inline;
 }
 
-.title,
-.title span {
+.title, .title span {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.2rem;
     font-weight: lighter;
 }
-
 
 /* Section Controls --------------------------------------------------------- */
 
@@ -174,33 +167,23 @@
     float: right;
 }
 
-
 /* Controls Icons ----------------------------------------------------------- */
 
-#hideLeftSidebar:after,
-#hideLeftContainer:after,
-#hideLeftSection:after {
+#hideLeftSidebar:after, #hideLeftContainer:after, #hideLeftSection:after {
     content: "\f0a8";
 }
 
-#hideRightSidebar:after,
-#hideRightContainer:after,
-#hideRightSection:after {
+#hideRightSidebar:after, #hideRightContainer:after, #hideRightSection:after {
     content: "\f0a9";
 }
 
-#showLeftSidebar:after,
-#showLeftContainer:after,
-#showLeftSection:after {
+#showLeftSidebar:after, #showLeftContainer:after, #showLeftSection:after {
     content: "\f0a9";
 }
 
-#showRightSidebar:after,
-#showRightContainer:after,
-#showRightSection:after {
+#showRightSidebar:after, #showRightContainer:after, #showRightSection:after {
     content: "\f0a8";
 }
-
 
 /* Section search ----------------------------------------------------------- */
 
@@ -216,9 +199,7 @@
     border-bottom-width: 1px;
 }
 
-
 /* Left Side Container ------------------------------------------------------ */
-
 
 /* Left Side Container - Content -------------------------------------------- */
 
@@ -254,7 +235,6 @@
     padding-bottom: 1rem;
 }
 
-
 /* Left Container ----------------------------------------------------------- */
 
 #left-container {
@@ -263,7 +243,6 @@
     -moz-box-shadow: -2px 0 2px 0 #cccccc;
     -webkit-box-shadow: -2px 0 2px 0 #cccccc;
 }
-
 
 /* Left Container - Content --------------------------------------------------*/
 
@@ -330,7 +309,6 @@
     margin-left: 4%;
 }
 
-
 /* Right Container ---------------------------------------------------------- */
 
 #right-container {
@@ -339,7 +317,6 @@
     -moz-box-shadow: 2px 0 2px 0 #cccccc;
     -webkit-box-shadow: 2px 0 2px 0 #cccccc;
 }
-
 
 /* Right Container - Content ------------------------------------------------ */
 
@@ -376,13 +353,11 @@
     padding-top: 1rem;
 }
 
-
 /* Right Side Container ----------------------------------------------------- */
 
 #right-sidebar {
     float: right;
 }
-
 
 /* Right Side Container - Content ------------------------------------------- */
 
@@ -403,9 +378,7 @@
     margin-bottom: 9rem;
 }
 
-#resources ol li a:link,
-#resources ol li a:visited,
-#resources ol li a:active {
+#resources ol li a:link, #resources ol li a:visited, #resources ol li a:active {
     width: 94%;
     float: left;
     display: block;
@@ -416,7 +389,6 @@
     padding-bottom: 1rem;
 }
 
-
 /* Main Container ----------------------------------------------------------- */
 
 #main-container {
@@ -426,7 +398,6 @@
     -webkit-box-shadow: 0 0 2px 2px #cccccc;
 }
 
-
 /* Object Header ------------------------------------------------------------ */
 
 #objectheader {
@@ -434,7 +405,6 @@
     padding-bottom: 1rem;
     width: 100%;
 }
-
 
 /* Object Header - Title ---------------------------------------------------- */
 
@@ -455,7 +425,6 @@
     font-weight: lighter;
     padding-top: 0.2rem;
 }
-
 
 /* Object Header - KPIs ----------------------------------------------------- */
 
@@ -491,7 +460,6 @@
     text-align: right;
 }
 
-
 /* Object Header - Attribute ------------------------------------------------ */
 
 #objectheader .attribute {
@@ -505,14 +473,12 @@
     width: 100%;
 }
 
-#objectheader .attribute li,
-#objectheader .status li {
+#objectheader .attribute li, #objectheader .status li {
     width: 16%;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 0.5rem;
 }
-
 
 /* Object Header - Status --------------------------------------------------- */
 
@@ -530,7 +496,6 @@
 #objectheader .status ol li {
     font-weight: bold;
 }
-
 
 /* Tabs --------------------------------------------------------------------- */
 
@@ -561,14 +526,10 @@
     text-align: center;
 }
 
-#tabMenu ol li a:link,
-#tabMenu ol li a:visited,
-#tabMenu ol li a:hover,
-#tabMenu ol li a:active {
+#tabMenu ol li a:link, #tabMenu ol li a:visited, #tabMenu ol li a:hover, #tabMenu ol li a:active {
     border-bottom-style: solid;
     border-bottom-width: 3px;
 }
-
 
 /* Tab Container ------------------------------------------------------------ */
 
@@ -602,8 +563,7 @@
     margin-top: 1rem;
 }
 
-#tabContainer .form .form-entry .label,
-#tabContainer .form .form-entry .amount {
+#tabContainer .form .form-entry .label, #tabContainer .form .form-entry .amount {
     width: 50%;
 }
 
@@ -611,11 +571,9 @@
     text-align: right;
 }
 
-
 /* Hide/Show Sections ------------------------------------------------------- */
 
-#right-container.minimised header,
-#right-container.minimised nav {
+#right-container.minimised header, #right-container.minimised nav {
     pointer-events: none;
     text-indent: 99999px;
 }

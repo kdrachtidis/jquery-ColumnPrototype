@@ -1,7 +1,6 @@
 @media only screen and (max-device-height: 1024px) and (orientation: landscape) {
     /* Header - Additional Content ------------------------------------------ */
-    #drop-groupslist,
-    #drop-masterlist {
+    #drop-groupslist, #drop-masterlist {
         display: block;
     }
 }

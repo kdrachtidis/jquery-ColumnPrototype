@@ -1,4 +1,5 @@
 /* Initialize default values --------------------------------------------------------------------------------*/
+
 body, html {
     overflow-y: hidden;
     width: 100%;
@@ -8,6 +9,7 @@ body, html {
     margin: 0;
     border: none;
 }
+
 section, header, nav, aside, article, footer, div, dl, dt, dd, ol, ul, li, span, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, button {
     float: left;
     display: block;
@@ -32,6 +34,7 @@ section, header, nav, aside, article, footer, div, dl, dt, dd, ol, ul, li, span,
     box-sizing: content-box;
     background: none;
 }
+
 input, select {
     border-width: 1px;
     border-style: solid;
@@ -59,19 +62,24 @@ input, select {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
+
 ol, ul {
     list-style-type: none;
 }
+
 button {
     cursor: pointer;
 }
+
 header, aside, p {
     width: 100%;
 }
-section > div {
+
+section>div {
     width: 100%;
 }
-section > nav {
+
+section>nav {
     width: 100%;
 }
 

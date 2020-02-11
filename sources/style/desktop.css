@@ -5,8 +5,7 @@
     #path {
         width: 74%;
     }
-    #drop-groupslist,
-    #drop-masterlist {
+    #drop-groupslist, #drop-masterlist {
         display: none;
     }
     /* Left Container - Content --------------------------------------------- */
@@ -24,7 +23,6 @@
         display: none;
     }
 }
-
 
 /* Normal Dekstop ----------------------------------------------------------- */
 
@@ -55,7 +53,6 @@
     }
 }
 
-
 /* Small Dekstop ------------------------------------------------------------ */
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) {
@@ -82,13 +79,11 @@
     }
 }
 
-
 /* Really Small Dekstop ----------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
     /* Header - Additional Content ------------------------------------------ */
-    #drop-groupslist,
-    #drop-masterlist {
+    #drop-groupslist, #drop-masterlist {
         display: block;
     }
 }
