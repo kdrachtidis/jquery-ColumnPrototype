@@ -6,7 +6,7 @@ module.exports = function (grunt) {
         watch: {
             scripts: {
                 files: ['*.js', 'docs/*.html', 'sources/**/*.html', 'sources/**/*.js', 'sources/**/*.json', 'sources/**/*.css'],
-                tasks: [/*'htmllint',*/ 'htmlmin', 'cssmin', 'jshint', 'uglify', 'minjson']
+                tasks: ['htmllint', 'htmlmin', 'cssmin', 'jshint', 'uglify', 'minjson']
             }
         },
         htmlmin: {
@@ -21,9 +21,9 @@ module.exports = function (grunt) {
                 }
             }
         },
-        //htmllint: {
-          //  all: ['sources/**/*.html']
-        //},
+        htmllint: {
+            all: ['docs/*.html', 'sources/**/*.html']
+        },
         jshint: {
             files: ['Gruntfile.js', '*.json', 'sources/**/*.js', 'sources/**/*.json'],
             options: {
@@ -69,6 +69,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-minjson');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('default', [/*'htmllint',*/ 'htmlmin', 'cssmin', 'jshint', 'minjson', 'uglify', 'watch']);
+    grunt.registerTask('default', ['htmllint', 'htmlmin', 'cssmin', 'jshint', 'minjson', 'uglify', 'watch']);
 
 };
