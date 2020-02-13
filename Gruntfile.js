@@ -34,6 +34,9 @@ module.exports = function (grunt) {
             buildScript: {
                 src: ['sources/script/*.js'],
                 dest: 'docs/src/js/script.min.js'
+            }, buildRightSidebar: {
+                src: ['sources/script/importRightSidebar.js'],
+                dest: 'docs/src/js/importRightSidebar.min.js'
             }
         },
         minjson: {

@@ -14,7 +14,7 @@ function getStructure() {
     $('#right-container').load('src/html/rightContainer.min.html' , function(){
         console.log('Right container loaded.');
     });
-    $('#right-sidebar').load('src/html/rightSidebar.min.html' , function(){
+    $('#right-sidebar').load('src/html/rightSidebar.min.html #rightSidebar' , function(){
         console.log('Right sidebar loaded.');
     });
 }
