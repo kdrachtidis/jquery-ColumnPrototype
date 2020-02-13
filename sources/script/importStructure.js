@@ -8,7 +8,7 @@ function getStructure() {
     $('#left-container').load('src/html/leftContainer.min.html #leftContainer' , function(){
         console.log('Left container loaded.');
     });
-    $('#main-container').load('src/html/mainContainer.min.html' , function(){
+    $('#main-container').load('src/html/mainContainer.min.html #mainContainer' , function(){
         console.log('Main container loaded.');
     });
     $('#right-container').load('src/html/rightContainer.min.html #rightContainer' , function(){
