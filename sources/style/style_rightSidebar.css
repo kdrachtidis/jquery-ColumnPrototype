@@ -1,25 +1,28 @@
-#right-sidebar {
-    float: right;
+#rightSidebar {
+    width: 100%;
+    height: 100%;
 }
 
-#resources {
+#rightSidebar .content {
+    width: 100%;
     height: 100%;
     overflow-y: scroll;
 }
 
-#resources ol {
+#rightSidebar .content ol {
+    width: 100%;
+    height: 100%;
+}
+
+#rightSidebar .content ol li {
     width: 100%;
 }
 
-#resources ol li {
-    width: 100%;
-}
-
-#resources ol li:last-child {
+#rightSidebar .content ol li:last-child {
     margin-bottom: 9rem;
 }
 
-#resources ol li a:link, #resources ol li a:visited, #resources ol li a:active {
+#rightSidebar .content ol li a:link, #rightSidebar .content ol li a:visited, #rightSidebar .content ol li a:active {
     width: 94%;
     float: left;
     display: block;
@@ -28,4 +31,18 @@
     padding-right: 3%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+#rightSidebar .content {
+    background-color: #fff;
+}
+
+#rightSidebar .content ol li a:link, #rightSidebar .content ol li a:visited, #rightSidebar .content ol li a:active {
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #cccccc;
+    color: #000;
+}
+
+#rightSidebar .content ol li a:hover {
+    background-color: #e5f2f9;
 }

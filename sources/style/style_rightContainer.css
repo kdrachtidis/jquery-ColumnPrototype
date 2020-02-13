@@ -37,3 +37,12 @@
 #timeline p.message {
     padding-top: 1rem;
 }
+
+#timeline {
+    background-color: #fff;
+}
+
+#timeline article {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dddddd;
+}

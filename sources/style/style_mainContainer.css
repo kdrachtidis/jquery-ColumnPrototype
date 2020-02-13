@@ -163,3 +163,20 @@
 #tabContainer .form .form-entry .amount {
     text-align: right;
 }
+
+#tabMenu {
+    border-bottom-color: #ddd;
+}
+
+#tabMenu ol li a:link, #tabMenu ol li a:visited, #tabMenu ol li a:active {
+    border-bottom-color: #fff;
+}
+
+#tabMenu ol li a:hover {
+    background-color: #e5f2f9;
+    border-bottom-color: #e5f2f9;
+}
+
+#tabMenu ol li:first-child a {
+    border-bottom-color: #007cc0;
+}

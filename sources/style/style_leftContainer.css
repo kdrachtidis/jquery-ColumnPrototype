@@ -67,3 +67,21 @@
     float: right;
     margin-left: 4%;
 }
+
+#masterlist {
+    background-color: #fff;
+}
+
+#masterlist article {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #fff;
+}
+
+#masterlist article:hover {
+    background-color: #e5f2f9;
+}
+
+#masterlist article:nth-child(2) {
+    background-color: #e5f2f9;
+}

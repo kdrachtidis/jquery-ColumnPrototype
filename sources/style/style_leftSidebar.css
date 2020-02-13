@@ -29,3 +29,23 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+#groupslist ol li a:link, #groupslist ol li a:visited, #groupslist ol li a:active {
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #cccccc;
+    color: #000;
+}
+
+#groupslist ol li a:hover {
+    background-color: #e5f2f9;
+}
+
+#groupslist ol li:nth-child(2) a {
+    background-color: #007cc0;
+    color: #fff;
+}
+
+#groupslist ol li:nth-child(2) a:hover {
+    background-color: #e5f2f9;
+    color: #000;
+}

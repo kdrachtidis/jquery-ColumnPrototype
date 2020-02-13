@@ -58,3 +58,34 @@
 #app-header #search:after {
     content: "\f002";
 }
+
+#app-header {
+    border-bottom-color: #dddddd;
+    border-top-color: #009de0;
+    background: linear-gradient(to bottom, #f7f7f7 0, #f2f2f2 70%, #ededed 100%);
+    background: -webkit-linear-gradient(to bottom, #f7f7f7 0, #f2f2f2 70%, #ededed 100%);
+    background: -o-linear-gradient(to bottom, #f7f7f7 0, #f2f2f2 70%, #ededed 100%);
+    background: -moz-linear-gradient(to bottom, #f7f7f7 0, #f2f2f2 70%, #ededed 100%);
+}
+
+#app-header ul.left li {
+    border-right-color: #dddddd;
+}
+
+#app-header ul.right li {
+    border-left-color: #dddddd;
+}
+
+#app-header button {
+    background-color: transparent;
+    color: #666666;
+}
+
+#app-header button:hover {
+    background-color: #f7f7f7;
+}
+
+#app-header button:active {
+    background-color: #009de0;
+    color: #fff;
+}
