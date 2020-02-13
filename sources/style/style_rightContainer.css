@@ -1,16 +1,15 @@
-#right-container {
-    z-index: 9999;
-    box-shadow: 2px 0 2px 0 #cccccc;
-    -moz-box-shadow: 2px 0 2px 0 #cccccc;
-    -webkit-box-shadow: 2px 0 2px 0 #cccccc;
+#rightContainer {
+    height: 100%;
+    width: 100%;
 }
 
-#timeline {
+#rightContainer .content {
     height: 100%;
+    width: 100%;
     overflow-y: scroll;
 }
 
-#timeline article {
+#rightContainer .content article {
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 0.7rem;
@@ -18,31 +17,31 @@
     width: 92%;
 }
 
-#timeline article:last-child {
+#rightContainer .content article:last-child {
     margin-bottom: 11rem;
 }
 
-#timeline h3 {
+#rightContainer .content h3 {
     width: 100%;
     font-size: 1.1rem;
     line-height: 1.1rem;
 }
 
-#timeline p.details {
+#rightContainer .content p.details {
     font-size: 0.8rem;
     line-height: 1rem;
     padding-top: 0.3rem;
 }
 
-#timeline p.message {
+#rightContainer .content p.message {
     padding-top: 1rem;
 }
 
-#timeline {
+#rightContainer .content {
     background-color: #fff;
 }
 
-#timeline article {
+#rightContainer .content article {
     background-color: #f2f2f2;
     border-bottom: 1px solid #dddddd;
 }
