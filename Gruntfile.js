@@ -46,6 +46,9 @@ module.exports = function (grunt) {
             }, buildLeftContainer: {
                 src: ['sources/script/importLeftContainer.js'],
                 dest: 'docs/src/js/importLeftContainer.min.js'
+            }, buildMainContainer: {
+                src: ['sources/script/importMainContainer.js'],
+                dest: 'docs/src/js/importMainContainer.min.js'
             }
         },
         minjson: {
@@ -53,8 +56,7 @@ module.exports = function (grunt) {
                 files: {
                     'docs/src/json/leftSidebar.min.json': 'sources/content/leftSidebar.json',
                     'docs/src/json/leftContainer.min.json': 'sources/content/leftContainer.json',
-                    'docs/src/json/Object.min.json': 'sources/content/Object.json',
-                    'docs/src/json/simpleForm.min.json': 'sources/content/simpleForm.json',
+                    'docs/src/json/mainContainer.min.json': 'sources/content/mainContainer.json',
                     'docs/src/json/rightContainer.min.json': 'sources/content/rightContainer.json',
                     'docs/src/json/rightSidebar.min.json': 'sources/content/rightSidebar.json'
                 }

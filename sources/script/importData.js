@@ -49,25 +49,13 @@ function getData() {
    
     $.ajax({
         dataType: "json",
-        url: "./src/json/Object.min.json",
+        url: "./src/json/mainContainer.min.json",
         success: mainContainerJSON,
         error: function(){
             console.log('No main container JSON found.');
         },
         complete: function(){
             console.log('Main container JSON loaded.');
-        }
-    });
-
-    $.ajax({
-        dataType: "json",
-        url: "./src/json/simpleForm.min.json",
-        success: simpleFormJSON,
-        error: function(){
-            console.log('No simple form JSON found.');
-        },
-        complete: function(){
-            console.log('Simple form JSON loaded.');
         }
     });
 }

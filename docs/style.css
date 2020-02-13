@@ -1,7 +1,6 @@
 /* Import layouts ----------------------------------------------------------- */
 
 @import url("src/css/initial.min.css") only screen;
-@import url("src/css/prototype.min.css") only screen;
 @import url("src/css/style_common.min.css") only screen;
 @import url("src/css/style_mainContainer.min.css") only screen;
 @import url("src/css/style_leftContainer.min.css") only screen;

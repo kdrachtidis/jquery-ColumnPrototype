@@ -51,6 +51,14 @@ input, select {
     -moz-box-shadow: -2px 0 2px 0 #cccccc;
     -webkit-box-shadow: -2px 0 2px 0 #cccccc;
 }
+
+#main-container {
+    z-index: 99999;
+    box-shadow: 0 0 2px 0 #cccccc;
+    -moz-box-shadow: 0 0 2px 2px #cccccc;
+    -webkit-box-shadow: 0 0 2px 2px #cccccc;
+}
+
 /* Header - Additional Content ---------------------------------------------- */
 
 #drop-groupslist {
