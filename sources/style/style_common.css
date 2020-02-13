@@ -1,0 +1,146 @@
+/* Sections - Overall Layout ------------------------------------------------ */
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#container>section {
+    height: 100%;
+}
+
+/* Header - Additional Content ---------------------------------------------- */
+
+#drop-groupslist {
+    width: 48%;
+    margin-left: 2%;
+}
+
+#drop-groupslist legend {
+    width: 35%;
+    text-align: right;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+#drop-groupslist legend span {
+    float: none;
+    display: inline;
+}
+
+#drop-groupslist legend span.count {
+    margin-left: 2%;
+}
+
+#drop-groupslist legend, #path fieldset legend span {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: lighter;
+}
+
+#drop-groupslist select {
+    width: 62%;
+    margin-left: 2%;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Section Title ------------------------------------------------------------ */
+
+.title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.title span {
+    float: none;
+    display: inline;
+}
+
+.title, .title span {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: lighter;
+}
+
+/* Section Controls --------------------------------------------------------- */
+
+.controls ul {
+    width: 100%;
+}
+
+#main-container .controls ul {
+    width: 13%;
+}
+
+.controls ul li {
+    min-width: 32px;
+    max-width: 64px;
+    width: 16%;
+}
+
+.controls ul.right {
+    float: right;
+}
+
+.controls button {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "font-awesome";
+}
+
+.right {
+    float: right;
+}
+
+/* Controls Icons ----------------------------------------------------------- */
+
+#hideLeftSidebar:after, #hideLeftContainer:after, #hideLeftSection:after {
+    content: "\f0a8";
+}
+
+#hideRightSidebar:after, #hideRightContainer:after, #hideRightSection:after {
+    content: "\f0a9";
+}
+
+#showLeftSidebar:after, #showLeftContainer:after, #showLeftSection:after {
+    content: "\f0a9";
+}
+
+#showRightSidebar:after, #showRightContainer:after, #showRightSection:after {
+    content: "\f0a8";
+}
+
+/* Section search ----------------------------------------------------------- */
+
+.search {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 90%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+/* Hide/Show Sections ------------------------------------------------------- */
+
+#right-container.minimised header, #right-container.minimised nav {
+    pointer-events: none;
+    text-indent: 99999px;
+}
+
+#tab-container {
+    width: 100%;
+}

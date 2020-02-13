@@ -1,0 +1,31 @@
+#right-sidebar {
+    float: right;
+}
+
+#resources {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#resources ol {
+    width: 100%;
+}
+
+#resources ol li {
+    width: 100%;
+}
+
+#resources ol li:last-child {
+    margin-bottom: 9rem;
+}
+
+#resources ol li a:link, #resources ol li a:visited, #resources ol li a:active {
+    width: 94%;
+    float: left;
+    display: block;
+    font-weight: lighter;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

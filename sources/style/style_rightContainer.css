@@ -1,0 +1,39 @@
+#right-container {
+    z-index: 9999;
+    box-shadow: 2px 0 2px 0 #cccccc;
+    -moz-box-shadow: 2px 0 2px 0 #cccccc;
+    -webkit-box-shadow: 2px 0 2px 0 #cccccc;
+}
+
+#timeline {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#timeline article {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+    width: 92%;
+}
+
+#timeline article:last-child {
+    margin-bottom: 11rem;
+}
+
+#timeline h3 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+
+#timeline p.details {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding-top: 0.3rem;
+}
+
+#timeline p.message {
+    padding-top: 1rem;
+}
