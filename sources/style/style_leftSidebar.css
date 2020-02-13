@@ -1,25 +1,31 @@
-#groupslist {
+#leftSidebar{
+    width: 100%;
     height: 100%;
+}
+
+#leftSidebar .content {
+    height: 100%;
+    width: 100%;
     overflow-y: scroll;
 }
 
-#groupslist ol {
+#leftSidebar .content ol {
     width: 100%;
 }
 
-#groupslist ol li {
+#leftSidebar .content ol li {
     width: 100%;
 }
 
-#groupslist ol li:last-child {
+#leftSidebar .content ol li:last-child {
     margin-bottom: 15rem;
 }
 
-#groupslist ol li h1 {
+#leftSidebar .content ol li h1 {
     width: 100%;
 }
 
-#groupslist ol li a {
+#leftSidebar .content ol li a {
     width: 94%;
     float: left;
     display: block;
@@ -30,22 +36,22 @@
     padding-bottom: 1rem;
 }
 
-#groupslist ol li a:link, #groupslist ol li a:visited, #groupslist ol li a:active {
+#leftSidebar .content ol li a:link, #leftSidebar .content ol li a:visited, #leftSidebar .content ol li a:active {
     background-color: #e5e5e5;
     border-bottom: 1px solid #cccccc;
     color: #000;
 }
 
-#groupslist ol li a:hover {
+#leftSidebar .content ol li a:hover {
     background-color: #e5f2f9;
 }
 
-#groupslist ol li:nth-child(2) a {
+#leftSidebar .content ol li:nth-child(2) a {
     background-color: #007cc0;
     color: #fff;
 }
 
-#groupslist ol li:nth-child(2) a:hover {
+#leftSidebar .content ol li:nth-child(2) a:hover {
     background-color: #e5f2f9;
     color: #000;
 }

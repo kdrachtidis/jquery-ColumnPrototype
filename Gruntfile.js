@@ -37,6 +37,9 @@ module.exports = function (grunt) {
             }, buildRightSidebar: {
                 src: ['sources/script/importRightSidebar.js'],
                 dest: 'docs/src/js/importRightSidebar.min.js'
+            }, buildLeftSidebar: {
+                src: ['sources/script/importLeftSidebar.js'],
+                dest: 'docs/src/js/importLeftSidebar.min.js'
             }
         },
         minjson: {
