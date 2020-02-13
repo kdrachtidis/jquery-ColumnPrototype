@@ -5,7 +5,7 @@ function getStructure() {
     $('#left-sidebar').load('src/html/leftSidebar.min.html #leftSidebar' , function(){
         console.log('Left sidebar loaded.');
     });
-    $('#left-container').load('src/html/leftContainer.min.html' , function(){
+    $('#left-container').load('src/html/leftContainer.min.html #leftContainer' , function(){
         console.log('Left container loaded.');
     });
     $('#main-container').load('src/html/mainContainer.min.html' , function(){

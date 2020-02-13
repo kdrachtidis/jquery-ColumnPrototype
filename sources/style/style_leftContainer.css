@@ -1,12 +1,11 @@
-#left-container {
-    z-index: 9999;
-    box-shadow: -2px 0 2px 0 #cccccc;
-    -moz-box-shadow: -2px 0 2px 0 #cccccc;
-    -webkit-box-shadow: -2px 0 2px 0 #cccccc;
+#leftContainer {
+    height: 100%;
+    width: 100%;
 }
 
-#masterlist {
+#leftContainer .content {
     height: 100%;
+    width: 100%;
     overflow-y: scroll;
 }
 
@@ -68,20 +67,20 @@
     margin-left: 4%;
 }
 
-#masterlist {
+#leftContainer .content {
     background-color: #fff;
 }
 
-#masterlist article {
+#leftContainer .content article {
     background-color: #f2f2f2;
     border-bottom: 1px solid #dddddd;
     border-top: 1px solid #fff;
 }
 
-#masterlist article:hover {
+#leftContainer .content article:hover {
     background-color: #e5f2f9;
 }
 
-#masterlist article:nth-child(2) {
+#leftContainer .content article:nth-child(2) {
     background-color: #e5f2f9;
 }
