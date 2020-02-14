@@ -1,4 +1,4 @@
-#app-header {
+#shellBar {
     border-top-width: 4px;
     border-top-style: solid;
     border-bottom-width: 1px;
@@ -6,35 +6,36 @@
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     z-index: 999999;
+    width: 100%;
 }
 
-#app-header ul.left {
+#shellBar ul.left {
     width: 3%;
 }
 
-#app-header ul.right {
+#shellBar ul.right {
     width: 10%;
     float: right;
 }
 
-#app-header ul li {
+#shellBar ul li {
     min-width: 32px;
     height: 2.7rem;
 }
 
-#app-header ul.left li {
+#shellBar ul.left li {
     width: 100%;
     border-right-width: 1px;
     border-right-style: solid;
 }
 
-#app-header ul.right li {
+#shellBar ul.right li {
     width: 48%;
     border-left-width: 1px;
     border-left-style: solid;
 }
 
-#app-header button {
+#shellBar button {
     width: 80%;
     height: 2.7rem;
     font-size: 1.4rem;
@@ -47,19 +48,19 @@
     font-family: "font-awesome";
 }
 
-#app-header #home:after {
+#shellBar #home:after {
     content: "\f0c9";
 }
 
-#app-header #account:after {
+#shellBar #account:after {
     content: "\f2bd";
 }
 
-#app-header #search:after {
+#shellBar #search:after {
     content: "\f002";
 }
 
-#app-header {
+#shellBar {
     border-bottom-color: #dddddd;
     border-top-color: #009de0;
     background: linear-gradient(to bottom, #f7f7f7 0, #f2f2f2 70%, #ededed 100%);
@@ -68,24 +69,24 @@
     background: -moz-linear-gradient(to bottom, #f7f7f7 0, #f2f2f2 70%, #ededed 100%);
 }
 
-#app-header ul.left li {
+#shellBar ul.left li {
     border-right-color: #dddddd;
 }
 
-#app-header ul.right li {
+#shellBar ul.right li {
     border-left-color: #dddddd;
 }
 
-#app-header button {
+#shellBar button {
     background-color: transparent;
     color: #666666;
 }
 
-#app-header button:hover {
+#shellBar button:hover {
     background-color: #f7f7f7;
 }
 
-#app-header button:active {
+#shellBar button:active {
     background-color: #009de0;
     color: #fff;
 }

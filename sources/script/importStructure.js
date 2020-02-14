@@ -1,5 +1,5 @@
 function getStructure() {
-    $('#app-header').load('src/html/shellBar.min.html', function(){
+    $('#app-header').load('src/html/shellBar.min.html #shellBar', function(){
         console.log('Shell bar loaded.');
     });
     $('#left-sidebar').load('src/html/leftSidebar.min.html #leftSidebar' , function(){
