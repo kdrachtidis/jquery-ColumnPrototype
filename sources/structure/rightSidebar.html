@@ -5,19 +5,11 @@
     <title>rightSidebar</title>
     <meta charset="UTF-8" />
 
-    <style>
-        @font-face {
-            font-family: "font-awesome";
-            src: url("../../fonts/fontawesome-webfont.ttf");
-        }
-    </style>
-
-    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://unpkg.com/fundamental-styles@0.5.0/dist/fundamental-styles.css" />
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 
     <script src="../../src/js/importRightSidebar.min.js"></script>
     <script>
@@ -26,21 +18,27 @@
 </head>
 
 <body>
-    <div id="rightSidebar">
-        <aside class="controls">
-            <ul>
-                <li>
-                    <button type="button" id="hideRightSidebar"></button>
-                </li>
-            </ul>
-        </aside>
-        <header class="title">
-            <span class="label"></span><span class="count"></span>
-        </header>
-        <section class="content">
-            <ol></ol>
-        </section>
+
+    <div class="fd-panel" id="rightSidebar">
+
+        <div class="fd-panel__header">
+            <div class="fd-panel__head">
+                <h3 class="fd-panel__title"></h3>
+                <p class="fd-panel__description"></p>
+            </div>
+            <div class="fd-panel__actions">
+                <button class=" fd-button--primary sap-icon--hide" id="hideRightSidebar"></button>
+            </div>
+        </div>
+
+        <div class="fd-panel__body">
+            <ul class="fd-list"></ul>
+        </div>
+
+        <div class="fd-panel__footer"></div>
+        
     </div>
+
 </body>
 
 </html>

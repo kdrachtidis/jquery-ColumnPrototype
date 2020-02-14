@@ -1,11 +1,16 @@
 function rightSidebarJSON(data){
     //Panel Head
-    $("#rightSidebar .title .label").append(data.title);
-    $("#rightSidebar .title .count").append(" (" + data.items.length + ")");
+    $("#rightSidebar .fd-panel__title").append(data.title);
+    $("#rightSidebar .fd-panel__description").append(data.description);
+    $("#rightSidebar .fd-panel__footer").append(data.items.length + " items loaded successfully.");
 
     //Panel Body - list
     $(data.items).each(function () {
-        $('<li><a href="#">' + this.header + '</a></li>').appendTo("#rightSidebar .content ol");
+        var htmlItem;
+        htmlItem = '<li class="fd-list__item">';
+        htmlItem += '   <span class="fd-list__title">' + this.header + '</span>';
+        htmlItem += '</li>';
+        $(htmlItem).appendTo("#rightSidebar .fd-list");
     });
 }
 
