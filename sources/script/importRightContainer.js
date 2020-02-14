@@ -1,18 +1,34 @@
 function rightContainerJSON(data) {
     //Panel Heads
-    $("#rightContainer .title .label").append(data.title);
-    $("#rightContainer .title .count").append(" (" + data.items.length + ")");
+    $("#rightContainer .fd-panel__title").append(data.title);
+    $("#rightContainer .fd-panel__description").append(data.description);
+    $("#rightContainer .fd-panel__footer").append(data.items.length + " items loaded successfully.");
 
     //Panel Body - list
     $(data.items).each(function () {
         var htmlItem;
 
-        htmlItem = '<article>';
-        htmlItem += '   <h3>' + this.title + '</h3>';
-        htmlItem += '   <p class="details">created on ' + this.date + ', at ' + this.timestamp + ' by <a href="#">' + this.user + '</a></p>';
-        htmlItem += '   <p class="message">' + this.message + '</p>';
-        htmlItem += '</article>';
-        $(htmlItem).appendTo("#rightContainer .content");
+        htmlItem = '<div class="fd-notification fd-notification--m">';
+        htmlItem += '   <div class="fd-notification__header">';
+        htmlItem += '       <div class="fd-notification__title">' + this.title + '</div>';
+        htmlItem += '   </div>';
+        htmlItem += '   <div class="fd-notification__body">';
+        htmlItem += '       <div class="fd-notification__content">';
+        htmlItem += '           <div class="fd-notification__text">';
+        htmlItem += '               <div class="fd-notification__description">' + this.message + '</div>';
+        htmlItem += '               <div class="fd-notification__metadata">' + this.user + ' | ' + this.date + ' ' + this.timestamp + '</div>';
+        htmlItem += '           </div>';
+        htmlItem += '       </div>';
+        htmlItem += '       <div class="fd-notification__footer">';
+        htmlItem += '           <button class="fd-button--light">More Info</button>';
+        htmlItem += '           <div class="fd-notification__actions">';
+        htmlItem += '               <button class="fd-button--positive">Approve</button>';
+        htmlItem += '               <button class="fd-button--negative">Reject</button>';
+        htmlItem += '           </div>';
+        htmlItem += '       </div>';
+        htmlItem += '   </div>';
+        htmlItem += '</div>';
+        $(htmlItem).appendTo("#rightContainer .fd-panel__body");
     });
 }
 
