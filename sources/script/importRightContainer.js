@@ -16,10 +16,10 @@ function rightContainerJSON(data) {
     });
 }
 
-function getRightContainerData() {
+function getRightContainerData(customPath) {
     $.ajax({
         dataType: "json",
-        url: "../../src/json/rightContainer.min.json",
+        url: customPath + '/src/json/rightContainer.min.json',
         success: rightContainerJSON,
         error: function () {
             console.log('No right container JSON found.');

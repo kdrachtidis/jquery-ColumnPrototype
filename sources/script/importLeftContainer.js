@@ -33,10 +33,10 @@ function leftContainerJSON(data) {
     });
 }
 
-function getLeftContainerData() {
+function getLeftContainerData(customPath) {
     $.ajax({
         dataType: "json",
-        url: "../../src/json/leftContainer.min.json",
+        url: customPath + '/src/json/leftContainer.min.json',
         success: leftContainerJSON,
         error: function () {
             console.log('No left container JSON found.');

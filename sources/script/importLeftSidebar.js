@@ -22,10 +22,10 @@ function leftSidebarJSON(data) {
     });
 }
 
-function getLeftSidebarData() {
+function getLeftSidebarData(customPath) {
     $.ajax({
         dataType: "json",
-        url: "../../src/json/leftSidebar.min.json",
+        url: customPath + '/src/json/leftSidebar.min.json',
         success: leftSidebarJSON,
         error: function () {
             console.log('No left sidebar JSON found.');

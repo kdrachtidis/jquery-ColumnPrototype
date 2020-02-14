@@ -35,10 +35,10 @@ function mainContainerJSON(data) {
     });
 }
 
-function getMainContainerData() {
+function getMainContainerData(customPath) {
     $.ajax({
         dataType: "json",
-        url: "../../src/json/mainContainer.min.json",
+        url: customPath + '/src/json/mainContainer.min.json',
         success: mainContainerJSON,
         error: function () {
             console.log('No main container JSON found.');

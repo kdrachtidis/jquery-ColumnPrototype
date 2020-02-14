@@ -9,10 +9,10 @@ function rightSidebarJSON(data){
     });
 }
 
-function getRightSidebarData(){
+function getRightSidebarData(customPath){
     $.ajax({
         dataType: "json",
-        url: "../../src/json/rightSidebar.min.json",
+        url: customPath + '/src/json/rightSidebar.min.json',
         success: rightSidebarJSON,
         error: function(){
             console.log('No right sidebar JSON found.');
