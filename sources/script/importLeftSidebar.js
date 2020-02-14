@@ -1,18 +1,17 @@
 function leftSidebarJSON(data) {
     //Panel Head
-    $("#drop-groupslist .label, #leftSidebar .title .label").append(data.title);
-    $("#drop-groupslist .count, #leftSidebar .title .count").append(" (" + data.items.length + ")");
+    $("#drop-groupslist .label, #leftSidebar .fd-panel__title").append(data.title);
+    $("#drop-groupslist .label, #leftSidebar .fd-panel__description").append(data.description);
+    $("#drop-groupslist .count, #leftSidebar .fd-panel__footer").append(data.items.length + " items loaded succesfully.");
 
     //Panel Body - list
     $(data.items).each(function () {
         var htmlItem;
 
-        htmlItem = '<li>';
-        htmlItem += '   <h1>';
-        htmlItem += '       <a href="#">' + this.header + '</a>';
-        htmlItem += '   </h1>';
+        htmlItem = '<li class="fd-list__item">';
+        htmlItem += '   <span class="fd-list__title">' + this.header + '</span>';
         htmlItem += '</li>';
-        $(htmlItem).appendTo("#leftSidebar .content ol");
+        $(htmlItem).appendTo("#leftSidebar .fd-list");
 
         if (this.header.length < 17) {
             $('<option>' + this.header + '</option>').appendTo("#drop-groupslist select");
