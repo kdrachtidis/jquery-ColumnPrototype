@@ -1,10 +1,10 @@
 function leftSidebarJSON(data) {
     //Panel Head
-    $("#drop-groupslist .label, #leftSidebar .fd-panel__title").append(data.title);
-    $("#drop-groupslist .label, #leftSidebar .fd-panel__description").append(data.description);
+    $("#leftSidebar .fd-panel__title").append(data.title);
+    $("#leftSidebar .fd-panel__description").append(data.description);
 
-    //Panel Body - list
-    $.each(data.regions, function (i, item) {
+    //Panel Body - List
+    $.each(data.regions, function (i) {
         var htmlItem;
 
         htmlItem = '<li class="fd-list__group-header" id="group-' + this.id + '">' + this.name + ' ' + this.id + ' (' + this.items.length + ' items)</li>';
@@ -17,14 +17,14 @@ function leftSidebarJSON(data) {
             htmlItem += '   <span class="fd-list__title">' + this.header + ' ' + this.id + '</span>';
             htmlItem += '</li>';
             $(htmlItem).insertAfter('#leftSidebar #group-' + data.regions[i].id);
-    
-            $('<option>' + this.header + '</option>').appendTo("#drop-groupslist select");
-            
         });
     });
 
-    //Panel Footer
-    $("#drop-groupslist .count, #leftSidebar .fd-panel__footer").append(data.regions.length + ' groups of tenants successfully loaded.');
+    //Panel Body - List footer
+    var lastItem;
+    lastItem = '<li class="fd-list__footer">' + data.regions.length + ' groups of tenants successfully loaded.</li>';
+
+    $('#leftSidebar .fd-list').append(lastItem);
 }
 
 function getLeftSidebarData(customPath) {
