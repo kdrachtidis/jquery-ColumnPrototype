@@ -1,36 +1,24 @@
 function leftContainerJSON(data) {
     //Panel Head
-    $("#drop-masterlist .label, #leftContainer .title .label").append(data.title);
-    $("#drop-masterlist .count, #leftContainer .title .count").append(" (" + data.items.length + ")");
+    $("#leftContainer .fd-panel__title").append(data.type);
+    $("#leftContainer .fd-panel__description").append(data.description);
 
-    //Panel Body - list
-    $(data.items).each(function () {
+    //Panel Body - List
+    $.each(data.items, function () {
         var htmlItem;
 
-        htmlItem = '<article class="list-object">';
-        htmlItem += '   <aside>' + this.subheader + '</aside>';
-        htmlItem += '   <header><h2>' + this.header + '</h2><h3>' + this.kpi + '</h3></header>';
-        htmlItem += '   <footer>';
-        htmlItem += '       <ul class="switch">';
-        htmlItem += '          <li class="more"><button type="button">more</button></li>';
-        htmlItem += '          <li class="less"><button type="button">less</button></li>';
-        htmlItem += '       </ul>';
-        htmlItem += '       <ul class="attributes">';
-        htmlItem += '           <li>' + this.attribute1 + '</li>';
-        htmlItem += '<li class="right">' + this.attribute2 + '</li>';
-        htmlItem += '           <li>' + this.attribute3 + '</li>';
-        htmlItem += '           <li class="right">' + this.attribute4 + '</li>';
-        htmlItem += '       </ul>';
-        htmlItem += '   </footer >';
-        htmlItem += '</article >';
-        $(htmlItem).appendTo("#leftContainer .content");
-
-        if (this.header.length < 26) {
-            $('<option>' + this.header + '</option>').appendTo("#drop-masterlist select");
-        } else {
-            $('<option>' + this.header.substr(0, 25) + '...</option>').appendTo("#drop-masterlist select");
-        }
+        htmlItem = '<li class="fd-list__item">';
+        htmlItem += '   <span class="fd-list__title">' + this.name + ' [' + this.id + ']</span>';
+        htmlItem += '   <span class="fd-list__secondary fd-has-color-status-' + this.statusColor + '">' + this.status + '</span>';
+        htmlItem += '</li>';
+        $(htmlItem).appendTo("#leftContainer .fd-list");
     });
+
+    //Panel Body - List footer
+    var lastItem;
+    lastItem = '<li class="fd-list__footer">' + data.items.length + ' tenants successfully loaded.</li>';
+
+    $('#leftContainer .fd-list').append(lastItem);
 }
 
 function getLeftContainerData(customPath) {

@@ -3,19 +3,29 @@
     "description": "Description",
     "items": [
         {
-            "header": "Source 1"
+            "header": "Source 1",
+            "description": "Description",
+            "icon": "source-code"
         },
         {
-            "header": "Source 2"
+            "header": "Source 2",
+            "description": "Description",
+            "icon": "source-code"
         },
         {
-            "header": "Source 3"
+            "header": "Source 3",
+            "description": "Description",
+            "icon": "source-code"
         },
         {
-            "header": "Source 4"
+            "header": "Source 4",
+            "description": "Description",
+            "icon": "source-code"
         },
         {
-            "header": "Source 5"
+            "header": "Source 5",
+            "description": "Description",
+            "icon": "source-code"
         }
     ]
 }

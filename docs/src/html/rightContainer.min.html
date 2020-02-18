@@ -7,8 +7,8 @@
 
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/fundamental-styles@0.5.0/dist/fundamental-styles.css">
 
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script src="../../src/js/importRightContainer.min.js"></script>
     <script>
         $(document).ready(getRightContainerData('../..'));
@@ -18,8 +18,9 @@
 <body>
 
     <div class="fd-panel" id="rightContainer">
-
         <div class="fd-panel__header">
+
+            <!-- Panel Header -->
             <div class="fd-panel__head">
                 <h3 class="fd-panel__title"></h3>
                 <p class="fd-panel__description"></p>
@@ -28,8 +29,29 @@
                 <button class="fd-button--primary sap-icon--hide" id="showRightSidebar"></button>
                 <button class="fd-button--primary sap-icon--hide" id="hideRightContainer"></button>
             </div>
-        </div>
 
+        </div>
+        <div class="fd-panel__filters">
+            <div class="fd-tile__content">
+
+                <!-- Panel Filters -->
+                <div class="documentation-site-popover-container">
+                    <div class="fd-popover">
+                        <div class="fd-popover__control">
+                            <div aria-label="Image label" aria-controls="F4GcX348bc" aria-expanded="false" aria-haspopup="true">
+                                <div class="fd-input-group">
+                                    <input type="text" class="fd-input fd-input-group__input" id="" value="" placeholder="search...">
+                                    <span class="fd-input-group__addon fd-input-group__addon--button">
+                                        <button class="fd-input-group__button fd-button--light sap-icon--search"></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <div class="fd-panel__body"></div>
 
         <div class="fd-panel__footer"></div>
