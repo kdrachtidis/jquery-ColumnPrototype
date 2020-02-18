@@ -1,6 +1,6 @@
 function leftSidebarJSON(data) {
     //Panel Head
-    $("#leftSidebar .fd-panel__title").append(data.title);
+    $("#leftSidebar .fd-panel__title").append(data.type);
     $("#leftSidebar .fd-panel__description").append(data.description);
 
     //Panel Body - List
@@ -10,13 +10,13 @@ function leftSidebarJSON(data) {
         htmlItem = '<li class="fd-list__group-header" id="group-' + this.id + '">' + this.name + ' ' + this.id + ' (' + this.items.length + ' items)</li>';
         $(htmlItem).appendTo('#leftSidebar .fd-list');
 
-        $(data.regions[i].items).each(function () {
+        $.each(data.regions[i].items, function () {
             var htmlItem;
     
             htmlItem = '<li class="fd-list__item">';
             htmlItem += '   <span class="fd-list__title">' + this.header + ' ' + this.id + '</span>';
             htmlItem += '</li>';
-            $(htmlItem).insertAfter('#leftSidebar #group-' + data.regions[i].id);
+            $(htmlItem).insertAfter('#group-' + data.regions[i].id);
         });
     });
 
