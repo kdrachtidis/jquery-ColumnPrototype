@@ -5,19 +5,10 @@
     <title>mainContainer</title>
     <meta charset="UTF-8" />
 
-    <style>
-        @font-face {
-            font-family: "font-awesome";
-            src: url("../../fonts/fontawesome-webfont.ttf");
-        }
-    </style>
+    <link rel="stylesheet" type="text/css"
+        href="https://unpkg.com/fundamental-styles@0.5.0/dist/fundamental-styles.css" />
 
-    <link rel="stylesheet" type="text/css" href="../../style.css" />
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="../../src/js/importMainContainer.min.js"></script>
     <script>
@@ -26,95 +17,33 @@
 </head>
 
 <body>
-    <div id="mainContainer">
-        <aside class="controls">
-            <ul>
-                <li>
-                    <button type="button" id="showLeftSection"></button>
-                </li>
-                <li>
-                    <button type="button" id="showLeftContainer"></button>
-                </li>
-                <li>
-                    <button type="button" id="hideLeftSection"></button>
-                </li>
-            </ul>
-            <form id="path">
-                <fieldset id="drop-groupslist">
-                    <legend>
-                        <span class="label"></span><span class="count"></span>
-                    </legend>
-                    <select></select>
-                </fieldset>
-                <fieldset id="drop-masterlist">
-                    <legend>
-                        <span class="label"></span><span class="count"></span>
-                    </legend>
-                    <select></select>
-                </fieldset>
-            </form>
-            <ul class="right">
-                <li class="right">
-                    <button type="button" id="showRightSection"></button>
-                </li>
-                <li class="right">
-                    <button type="button" id="showRightContainer"></button>
-                </li>
-                <li class="right">
-                    <button type="button" id="hideRightSection"></button>
-                </li>
-            </ul>
-        </aside>
-        <section id="objectheader" class="content">
-            <div class="objectheader">
-                <div class="header">
-                    <span class="header-1"></span>
-                    <span class="header-2"></span>
-                </div>
-                <div class="kpi">
-                    <ol></ol>
-                </div>
-                <div class="attribute">
-                    <ol></ol>
-                </div>
-                <div class="status">
-                    <ol></ol>
-                </div>
+    <div class="fd-panel" id="mainContainer">
+        <div class="fd-panel__header">
+
+            <!-- Panel Header -->
+            <div class="fd-panel__head">
+                <h3 class="fd-panel__title"></h3>
+                <p id="proto-left-sidebar-description" class="fd-panel__description"></p>
             </div>
-            <nav id="tabMenu" class="tabmenu">
-                <ol></ol>
-            </nav>
-            <div id="tabContainer" class="tabcontainer">
-                <section class="form">
-                    <header>
-                        <h4>Form Title</h4>
-                    </header>
-                    <aside class="form-content">
-                    </aside>
-                </section>
-                <section class="form">
-                    <header>
-                        <h4>Form Title</h4>
-                    </header>
-                    <aside class="form-content">
-                    </aside>
-                </section>
-                <section class="form">
-                    <header>
-                        <h4>Form Title</h4>
-                    </header>
-                    <aside class="form-content">
-                    </aside>
-                </section>
-                <section class="form">
-                    <header>
-                        <h4>Form Title</h4>
-                    </header>
-                    <aside class="form-content">
-                    </aside>
-                </section>
+
+            <div class="fd-panel__actions">
+                <button class="fd-button--compact">Hide</button>
             </div>
-        </section>
+        </div>
+
+        <div class="fd-panel__filters fd-has-display-block"></div>
+        <div class="fd-panel__body fd-has-padding-none">
+
+            <!-- Panel Body -->
+            <ul class="fd-tabs fd-tabs--s fd-tabs--compact" role="tablist"></ul>
+
+        </div>
+        <div class="fd-panel__footer">
+
+            <!-- Panel Footer -->
+            <a href="#" class="fd-link" tabindex="0">Documentation</a>
+
+        </div>
     </div>
 </body>
 
