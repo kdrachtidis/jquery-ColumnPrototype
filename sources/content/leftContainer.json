@@ -1,96 +1,347 @@
 {
-    "type": "Accounts",
-    "description": "Description",
+    "title": "List of Objects",
     "items": [
         {
-            "name": "Account",
-            "status": "Active",
-            "statusColor": "1",
-            "id": "TENANT_ACCOUNT-1"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Disabled",
-            "statusColor": "2",
-            "id": "TENANT_ACCOUNT-2"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Expired",
-            "statusColor": "3",
-            "id": "TENANT_ACCOUNT-3"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Active",
-            "statusColor": "1",
-            "id": "TENANT_ACCOUNT-4"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Disabled",
-            "statusColor": "2",
-            "id": "TENANT_ACCOUNT-5"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Expired",
-            "statusColor": "3",
-            "id": "TENANT_ACCOUNT-6"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Active",
-            "statusColor": "1",
-            "id": "TENANT_ACCOUNT-7"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Disabled",
-            "statusColor": "2",
-            "id": "TENANT_ACCOUNT-8"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Expired",
-            "statusColor": "3",
-            "id": "TENANT_ACCOUNT-9"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Active",
-            "statusColor": "1",
-            "id": "TENANT_ACCOUNT-10"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Disabled",
-            "statusColor": "2",
-            "id": "TENANT_ACCOUNT-11"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Expired",
-            "statusColor": "3",
-            "id": "TENANT_ACCOUNT-12"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Active",
-            "statusColor": "1",
-            "id": "TENANT_ACCOUNT-13"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Disabled",
-            "statusColor": "2",
-            "id": "TENANT_ACCOUNT-14"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         },
         {
-            "name": "Account",
-            "status": "Expired",
-            "statusColor": "3",
-            "id": "TENANT_ACCOUNT-15"
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
+        },
+        {
+            "header": "Name of Object up to that long or even longer",
+            "kpi": "999.000.000,00€",
+            "subheader": "Sub-Header Data",
+            "attribute1": "Attribute 1",
+            "attribute2": "Attribute 2",
+            "attribute3": "Attribute 3",
+            "attribute4": "Attribute 4"
         }
     ]
 }

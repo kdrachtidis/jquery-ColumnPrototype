@@ -1,130 +1,133 @@
 {
-    "title": "Account",
-    "description": "Description",
-    "tags": [
+    "header": "Header Data That Can Be That Long and Even Longer",
+    "subheader": "Details of the Header Above",
+    "kpis": [
         {
-            "label": "Tag 1"
+            "label": "Label of the KPI1",
+            "value": "999.999.999,99"
         },
         {
-            "label": "Tag 2"
+            "label": "Label of the KPI2",
+            "value": "100.00%"
         },
         {
-            "label": "Tag 3"
+            "label": "Label of the KPI3",
+            "value": "99.99%"
         },
         {
-            "label": "Tag 4"
+            "label": "Label of the KPI4",
+            "value": "99.99%"
         }
     ],
-    "objects": [
+    "attributes": [
         {
-            "name": "Logs",
-            "expanded": "false",
-            "id": "1",
-            "labels": [
-                {
-                    "label1": "",
-                    "label2": "Name",
-                    "label3": "Log Type",
-                    "label4": "User",
-                    "label5": "Creation Date"
-                }
-            ],
-            "items": [
-                {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Log type",
-                    "user": "User name",
-                    "date": "January 1, 2020",
-                    "id":"1"
-                },
-                {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Log type",
-                    "user": "User name",
-                    "date": "January 1, 2020",
-                    "id":"2"
-                }
-            ]
+            "value": "Attribute 1"
         },
         {
-            "name": "Objects",
-            "expanded": "true",
-            "id": "2",
-            "labels": [
-                {
-                    "label1": "",
-                    "label2": "Name",
-                    "label3": "Object Type",
-                    "label4": "Author",
-                    "label5": "Creation Date"
-                }
-            ],
-            "items": [
-                {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Object type",
-                    "author": "Author name",
-                    "date": "January 1, 2020",
-                    "id":"1"
-                },
-                {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Object type",
-                    "author": "Author name",
-                    "date": "January 1, 2020",
-                    "id":"2"
-                },
-                {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Object type",
-                    "author": "Author name",
-                    "date": "January 1, 2020",
-                    "id":"3"
-                },
-                {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Object type",
-                    "author": "Author name",
-                    "date": "January 1, 2020",
-                    "id":"4"
-                }
-            ]
+            "value": "Attribute 2"
         },
         {
-            "name": "Certificates",
-            "expanded": "false",
-            "id": "3",
-            "labels": [
-                {
-                    "label1": "",
-                    "label2": "Name",
-                    "label3": "Certificate Type",
-                    "label4": "Organisation",
-                    "label5": "Creation Date"
-                }
-            ],
+            "value": "Attribute 3"
+        },
+        {
+            "value": "Attribute 4"
+        },
+        {
+            "value": "Attribute 5"
+        },
+        {
+            "value": "Attribute 6"
+        },
+        {
+            "value": "Attribute 7"
+        },
+        {
+            "value": "Attribute 8"
+        },
+        {
+            "value": "Attribute 9"
+        },
+        {
+            "value": "Attribute 10"
+        }
+    ],
+    "status": [
+        {
+            "value": "Status 1"
+        },
+        {
+            "value": "Status 2"
+        },
+        {
+            "value": "Status 3"
+        },
+        {
+            "value": "Status 4"
+        }
+    ],
+    "tabs": [
+        {
+            "label": "Tab 1"
+        },
+        {
+            "label": "Tab 2"
+        },
+        {
+            "label": "Tab 3"
+        },
+        {
+            "label": "Tab 4"
+        },
+        {
+            "label": "Tab 5"
+        },
+        {
+            "label": "Tab 6"
+        }
+    ],
+    "forms": [
+        {
+            "title": "Form title",
             "items": [
                 {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Object type",
-                    "organisation": "Org name",
-                    "date": "January 1, 2020",
-                    "id":"1"
+                    "label": "Order",
+                    "amount": "324,000.00€"
                 },
                 {
-                    "icon": "database",
-                    "name": "Object name",
-                    "type": "Object type",
-                    "organisation": "Org name",
-                    "date": "January 1, 2020",
-                    "id":"2"
+                    "label": "Invoice",
+                    "amount": "234,000.00€"
+                },
+                {
+                    "label": "Payment",
+                    "amount": "84,000.00€"
+                },
+                {
+                    "label": "Order",
+                    "amount": "98,000.00€"
+                },
+                {
+                    "label": "Payment",
+                    "amount": "124,000.00€"
+                },
+                {
+                    "label": "Order",
+                    "amount": "254,000.00€"
+                },
+                {
+                    "label": "Invoice",
+                    "amount": "545,000.00€"
+                },
+                {
+                    "label": "Payment",
+                    "amount": "234,000.00€"
+                },
+                {
+                    "label": "Order",
+                    "amount": "24,000.00€"
+                },
+                {
+                    "label": "Payment",
+                    "amount": "23,000.00€"
                 }
             ]
         }
